@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+        fieldset{
+        
+            background-color:rgb(38, 225, 160);
+            width:400PX;
+            height: 700px;
+        }  
+        legend{
+    background-color: rgb(18, 173, 187);
+    text-align: center;
+        } 
+        
+        </style>
+    </head>
+   <body>
+    <form>
+    <fieldset>
+<legend>
+    <B>JOB ENROLLMENT LOGIN</B>
+</legend> <br><br>
+<label for="usernme">USERNAME:</label>
+<input type="text" id="username" placeholder="enter your name" name=" myname"  ><BR><br>
+ <!-- disabled-tag  is used to disable the data-->
+             <!-- readonly- orm with a read-only input field -->
+<label for="password">PASSWORD :</label>
+<input type="password" id="password" placeholder="password"><BR><br>
+<label for="email">EMAIL :</label>
+<input type="email"id=email placeholder="rakesh@gmail.com" ><br><BR>
+<label> ABOUT YOURSELF:</label><br>
+<textarea rows="3" cols="40"> bio </textarea><br><br>
+<label> DESCRIPTION :</label>
+<select>
+    <optgroup label="softwere enginner" id=""><br>
+        <option value="bmw"> senior devopler</option>
+        <option value="bmw"> junior</option>
+        <option value="bmw"> not a devolper</option>
+   </optgroup>
+</select><br><BR>
+<label>DATE OF BIRTH:</label>
+<input type="date" placeholder=""><br><BR>
+<label>IMAGE:</label>
+<input type="file" placeholder=""><br><BR>
+<label for="number">MOBILE:</label>
+<input type="tel" id="number"placeholder=" enter your mob number" name="my number" pattern="[0-9]{4,10}"><br><br>
+<label id="level">PROGRAMMING LEVEL:</label><br>
+<input type="radio" id="level"name=" programming level">beginner<br>
+<input type="radio" name=" programming level">intermedite<br>
+<input type="radio" name=" programming level">proessional<br><br>
+<label>LANGUAGES KNOWN:</label><br>
+<input type="checkbox" name="experiance"value=" java"> java<br>
+<input type="checkbox" name="experiance"value=" ptyhon"> python<br>
+<input type="checkbox" name="experiance" value=" html"> html<br><br>
+<label>WEBSITE URL:</label>
+<input type="url" placeholder="your website"><br><BR>
+<pre><input type="reset" >            <input type="submit"> </pre>
+
+    </fieldset>
+</form>
+   </body>
+</html>
